@@ -1,0 +1,34 @@
+@startuml
+package "Gestionar Ventas" {
+    class Venta {
+        +idVenta: int
+        +fecha: Date
+        +total: float
+        +realizarVenta(cliente: Cliente, productos: List<Producto>)
+        +generarFactura()
+    }
+    
+    class Producto {
+        +idProducto: int
+        +nombre: String
+        +precio: float
+        +cantidadDisponible: int
+    }
+
+    class Cliente {
+        +idCliente: int
+        +nombre: String
+        +direccion: String
+        +telefono: String
+        +email: String
+    }
+    
+    class Inventario {
+        +actualizarInventario()
+    }
+
+    Venta --> Cliente: realiza
+    Venta --> Producto: incluye
+    Venta --> Inventario: actualiza
+}
+@enduml
