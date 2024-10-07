@@ -1,3 +1,5 @@
+![Diagrama](//www.plantuml.com/plantuml/png/RPBFIiD04CRl-nHBxpre_nGyI4iG4HIaeFSX6UDWiXjcfq5z9my-Gr_CJBec8Uobx7ppcs-dtsOV15XETMKgV1ChtZALxs8BOio5l3EGYsURLOHEC5RFx5l4mdEi5_V8shQ7eYP7GHY4Mh-m42xId2lGldQ7hlrb7trv_Wb2EIYlUf6mrf4du0yKSgM2OsNCAM0E0HKEkZHmjE_1b-mgHMI-RdX0hbF8WslLXib7QfKqWhg1yo-4-OuwiHudZbZsqGnfHcGpDNMem14RpzES8heTqOE3YhvroRhHg9IDcmpupfXubLqk-np-qqtN6pEyh0gQIlzyYM9bXdzw4TPpOJV5jwOZkkEjDkoDlViKqglDlllLp-yF)
+
 @startuml
 left to right direction
 actor Cliente
